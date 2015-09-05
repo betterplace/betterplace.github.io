@@ -41,11 +41,14 @@ a:hover,
 a:active,
 a:focus {
   font-weight: bold;
-  color: #6a9000
-  text-decoration: none
-  cursor: pointer
+  color: #6a9000;
+  text-decoration: none;
+  cursor: pointer;
 }
 a:hover,
 a:focus {
-  text-decoration: underline
+  text-decoration: underline;
+}
+a:visited {
+  color: #eeeeee;
 }
