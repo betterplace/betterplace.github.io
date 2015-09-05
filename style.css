@@ -18,7 +18,7 @@ img {
   background: #eeefeb;
   width: calc(100% - 158px);
   border-radius: 5px;
-  padding: 0 15px;
+  padding: 0 20px;
   box-sizing: content-box;
 }
 .text:before {
