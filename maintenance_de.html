@@ -18,39 +18,51 @@
     -->
     
     <div class="text">
-      <!-- REMINDER: Change param "anlass" in iframe URL! -->
       <p>
-        Hallo! <!--Hallo von SENDUNGSNAME,-->
+        Hallo!
       </p>
-      <!--<p>Wir sind gerade unerwartet nicht erreichbar. Wir melden uns an dieser Stelle, sobald wir mehr wissen!</p>-->
-      <!--<p>Wir arbeiten kurz an unserer Datenbank. Das sollte nicht l&auml;nger als 5 Minuten dauern.</p>-->
+      <!-- *** UseCase: Offline for unknow reasons *** -->
       <p>
-        Leider hat sich eine Warteschlange gebildet vor den Toren von betterplace.org.
-        <br>
+        Wir sind gerade unerwartet nicht erreichbar.<br>
+        Wir melden uns an dieser Stelle, sobald wir mehr wissen!<br>
+        Danke für Deine Geduld.
+      </p>
+      <p>
+        Gregory<br>
+        <small>IT-Team betterplace.org</small>
+      </p>
+
+      <!-- *** UseCase: Offline for technical update *** 
+      <p>
+        Wir arbeiten kurz an unserer Datenbank. Das sollte nicht länger als 5 Minuten dauern.<br>
+        Danke für Deine Geduld.
+      </p>
+      <p>
+        Gregory<br>
+        <small>IT-Team betterplace.org</small>
+      </p>-->
+
+      <!-- *** UseCase: Offline due to too much traffic *** 
+           *** REMINDER: Change param iframe URL anlass=tv-SENDUNGSNAME ***
+           *** Results: https://de.surveymonkey.net/analyze/browse/T_2BkwoOF2AEn3jQR48jMgc7aiQZ4s_2FMhs0gjGa32l0Zc_3D ***
+      <p>
+        Leider hat sich eine Warteschlange gebildet vor den Toren von betterplace.org.<br>
         <strong>Wir sind bald wieder da!</strong>
+      </p>
+      <p>
+        Gerne informieren wir Dich auch per E-Mail, sobald wir wieder erreichbar sind:
+      </p>
+      <p>
+        <iframe frameborder="0" allowtransparency="true" 
+          style="margin-left: -20px; height: 350px; margin-top: -20px; width: calc(100% + 40px);"
+          src="https://de.research.net/r/bp-downtime?anlass=unbekannt"></iframe>
       </p>
       <p>
         Sehr gerne möchten wir Dich per E-Mail, 
         <a href="https://twitter.com/betterplace_org">Twitter</a> oder 
         <a href="https://www.facebook.com/betterplace.org">Facebook</a> 
         informieren, sobald die Seite wieder erreichbar ist.
-      </p>
-      
-      <p>
-        Gerne informieren wir Dich auch per E-Mail, sobald wir wieder erreichbar sind:
-      </p>
-      <!-- anlass=tv-SENDUNGSNAME -->
-      <!-- https://de.surveymonkey.net/analyze/browse/T_2BkwoOF2AEn3jQR48jMgc7aiQZ4s_2FMhs0gjGa32l0Zc_3D -->
-      <p>
-        <iframe frameborder="0" allowtransparency="true" 
-          style="margin-left: -20px; height: 350px; margin-top: -20px; width: calc(100% + 40px);"
-          src="https://de.research.net/r/bp-downtime?anlass=pressekonferenz-fluechtlinge"></iframe>
-      </p>
-      <p>
-        Gregory
-        <br>
-        <small>IT-Team betterplace.org</small>
-      </p>
+      </p>-->
     </div>
 
   </body>
