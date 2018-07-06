@@ -134,14 +134,14 @@ ga('set', 'anonymizeIp', true);
 ga('set', 'dimension1', 'Unknown'); // User
 if(window.getDevicePixelRatio!==undefined)
   ga('set', 'dimension2', window.getDevicePixelRatio()); // Session
-ga('set', 'dimension5', 'page-errors/502-internal-error-page'); // TrackingPath (Hit)
+ga('set', 'dimension5', 'page-errors/503-page'); // TrackingPath (Hit)
 ga('require', 'linkid');
 ga('require', 'displayfeatures');
 ga('send', 'pageview');
 
-ga('send', 'event', 'page-errors', '502-internal-error-page', document.URL, {'nonInteraction': 1});
+ga('send', 'event', 'page-errors', '503-page', document.URL, {'nonInteraction': 1});
 ga('send', 'exception', {
-  'exDescription': 'page-errors/502-internal-error-page',
+  'exDescription': 'page-errors/503-page',
   'exFatal': true
 });</script><script>if ((navigator.language || navigator.userLanguage).match(/^de/)) {
   document.body.className = "de";
