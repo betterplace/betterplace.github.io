@@ -1,0 +1,6 @@
+# Site settings
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://betterplace.github.io" # the base hostname & protocol for your site
+
+google_analytics: UA-1584203-1
+markdown: kramdown
