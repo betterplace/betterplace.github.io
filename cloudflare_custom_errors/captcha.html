@@ -8,6 +8,7 @@ tracking: captcha-page
   <h1>Noch ein Schritt</h1>
   <h2>Aus Sicherheitsgründen müssen wir kurz prüfen, ob Du ein echter Mensch bist</h2>
   ::CAPTCHA_BOX::
+  {% include url_insert.html %}
   {% include imprint_de.html %}
 </div>
 <div class="text en">
@@ -15,7 +16,6 @@ tracking: captcha-page
   <h2>For security reasons we have to verify that you are a real person</h2>
   ::CAPTCHA_BOX::
   {% include url_insert.html %}
-  <p><a class="btn" href="https://www.betterplace.org/en/">Go to homepage</a></p>
   {% include imprint_en.html %}
 </div>
 4
