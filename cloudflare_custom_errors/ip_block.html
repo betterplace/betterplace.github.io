@@ -1,0 +1,32 @@
+---
+layout: error_page
+title_de: "betterplace.org: Zugriff verweigert"
+title_en: "betterplace.org: Access denied"
+tracking: denied-page
+---
+<div class="text de">
+  <h1>Zugriff verweigert</h1>
+  <h2>Der Zugriff von deiner Adresse bzw. Region ist nicht erlaubt</h2>
+  <p>Falls das ein Fehler ist, kontaktiere den Support mit den unten stehenden
+    Informationen</p>
+  <ul>
+    <li>IP: ::CLIENT_IP::</li>
+    <li>Ray ID: ::RAY_ID::</li>
+    <li>Location: ::GEO::</li>
+  </ul>
+  {% include imprint_de.html %}
+</div>
+<div class="text en">
+  <h1>Access denied</h1>
+  <h2>Access from your address or region is not allowed.</h2>
+  <h2>Der Zugriff von deiner Adresse bzw. Region ist nicht erlaubt</h2>
+  <p>If this is an error, contact our support with the information below</p>
+  <ul>
+    <li>IP: ::CLIENT_IP::</li>
+    <li>Ray ID: ::RAY_ID::</li>
+    <li>Location: ::GEO::</li>
+  </ul>
+  {% include url_insert.html %}
+  <p><a class="btn" href="https://www.betterplace.org/en/">Go to homepage</a></p>
+  {% include imprint_en.html %}
+</div>
