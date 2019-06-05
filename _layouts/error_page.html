@@ -148,8 +148,6 @@ ga('set', 'dimension1', 'Unknown'); // User
 if(window.getDevicePixelRatio!==undefined)
   ga('set', 'dimension2', window.getDevicePixelRatio()); // Session
 ga('set', 'dimension5', 'page-errors/{{ page.tracking }}'); // TrackingPath (Hit)
-ga('require', 'linkid');
-ga('require', 'displayfeatures');
 ga('send', 'pageview');
 
 ga('send', 'event', 'page-errors', '{{ page.tracking }}', document.URL, {'nonInteraction': 1});
