@@ -127,6 +127,9 @@ MUMxODk2LjQsMTUyLDE5MDkuOCwxMzMuNSwxOTM2LjEsMTMzLjV6Ii8+Cjwv
 Zz4KPC9zdmc+Cg==
 " />
     {{ content }}
+    <div class="ray-id">
+      <small>Cloudflare Ray ID: ::RAY_ID::</small>
+    </div>
     </div>
   </div>
   <script>window["de"] = {pageTitle: "{{ page.title_de }}"}</script><script>window["en"] = {pageTitle: "{{ page.title_en }}"}</script>
@@ -187,6 +190,12 @@ iframe {
   border: 0;
   width: 100%;
   height: 300px;
+}
+.ray-id {
+  text-align: center;
+  margin-top: 20px;
+  color: #899299;
+  font-size: 12px;
 }
 @media (max-width: 600px) {
   iframe {
